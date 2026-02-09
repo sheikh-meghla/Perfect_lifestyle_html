@@ -71,7 +71,7 @@ nav a.active {
 
 .hero h1 {
   font-size: 42px;
-  background: rgba(0, 0, 0, 0);
+  background: rgba(0,0,0,0.4);
   padding: 12px 25px;
   border-radius: 8px;
 }
@@ -330,31 +330,4 @@ footer {
 }
 .comment-form button:hover {
   background: #4a8c9e;
-}
-
-
-
-.related-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.arrow-icon {
-  font-size: 24px;
-  cursor: pointer;
-  user-select: none;
-  pointer-events: auto; /* IMPORTANT */
-}
-
-.arrow-icon.active {
-  transform: rotate(90deg);
-}
-.arrow-icon:hover {
-  background: #f0f0f0;
-  transform: translateX(3px);
-}
-
-.hidden {
-  display: none;
 }
