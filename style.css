@@ -331,3 +331,28 @@ footer {
 .comment-form button:hover {
   background: #4a8c9e;
 }
+
+
+
+.related-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrow-icon {
+  font-size: 22px;
+  cursor: pointer;
+  padding: 6px 12px;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.arrow-icon:hover {
+  background: #f0f0f0;
+  transform: translateX(3px);
+}
+
+.hidden {
+  display: none;
+}
