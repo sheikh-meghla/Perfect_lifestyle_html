@@ -16,6 +16,18 @@
   <!-- External CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
+
+<script>
+  const grid = document.querySelector('.related-grid');
+
+  function showMore() {
+    grid.scrollBy({
+      left: 300,
+      behavior: 'smooth'
+    });
+  }
+</script>
+
 <body>
 
   <!-- Header -->
@@ -62,27 +74,45 @@
       </p>
 
       <!-- Related Posts -->
-      <section class="related-posts">
-        <h3>Related Posts</h3>
-        <div class="related-grid">
-          <article class="post">
-            <img src="https://media.istockphoto.com/id/529664572/photo/fruit-background.jpg?s=612x612&w=0&k=20&c=K7V0rVCGj8tvluXDqxJgu0AdMKF8axP0A15P-8Ksh3I=" alt="">
-            <h4>বাংলাদেশের লাইফস্টাইল ট্রেন্ড ২০২৬</h4>
-          </article>
-          <article class="post">
-            <img src="https://fuchsiaspa.com/wp-content/uploads/Facials_Spa-01.jpg" alt="">
-            <h4>Top Apps for Students in Bangladesh</h4>
-          </article>
-          <article class="post">
-            <img src="https://st.depositphotos.com/1570716/1697/i/950/depositphotos_16978587-stock-photo-male-chef-cooking.jpg" alt="">
-            <h4>Best Food Blogs to Follow in 2026</h4>
-          </article>
-          <article class="post">
-            <img src="https://media.istockphoto.com/id/530284279/photo/checking-blood-pressure.jpg?s=612x612&w=0&k=20&c=KJdCdv6vs7tva5BXefiF6MfKn2JHwo9iO25_h2CbqI8=" alt="">
-            <h4>Best Health Tips for 2026</h4>
-          </article>          
-        </div>
-      </section>
+    <section class="related-posts">
+  <div class="related-header">
+    <h3>Related Posts</h3>
+    <span class="arrow-icon" onclick="showMore()">➜</span>
+  </div>
+
+  <div class="related-grid">
+    <article class="post">
+      <img src="https://sb-cyprus.com/media/k2/items/cache/d48e37a55ad6553a6ca6f4649ba69488_XL.jpg">
+      <h4>বাংলাদেশের লাইফস্টাইল ট্রেন্ড ২০২৬</h4>
+    </article>
+
+    <article class="post">
+      <img src="https://fuchsiaspa.com/wp-content/uploads/Facials_Spa-01.jpg">
+      <h4>Top Apps for Students in Bangladesh</h4>
+    </article>
+
+    <article class="post">
+      <img src="https://st.depositphotos.com/1570716/1697/i/950/depositphotos_16978587-stock-photo-male-chef-cooking.jpg">
+      <h4>Best Food Blogs to Follow in 2026</h4>
+    </article>
+
+    <article class="post">
+      <img src="https://media.istockphoto.com/id/530284279/photo/checking-blood-pressure.jpg?s=612x612&w=0&k=20&c=KJdCdv6vs7tva5BXefiF6MfKn2JHwo9iO25_h2CbqI8=">
+      <h4>Best Health Tips for 2026</h4>
+    </article>
+
+    <!-- hidden -->
+    <article class="post hidden">
+      <img src="https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2023/11/1200/675/healthy-living.jpg?ve=1&tl=1">
+      <h4>Daily Healthy Routine</h4>
+    </article>
+    <article class="post hidden">
+      <img src="https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2023/11/1200/675/healthy-living.jpg?ve=1&tl=1">
+      <h4>Daily Healthy Routine</h4>
+    </article>    
+  </div>
+</section>
+
 
       <div class="comments-section">
 
