@@ -80,6 +80,7 @@ nav a.active {
    Main Layout
 ====================== */
 .container {
+  
   max-width: 1200px;
   margin: 60px auto;
   display: flex;
@@ -330,4 +331,21 @@ footer {
 }
 .comment-form button:hover {
   background: #4a8c9e;
+}
+
+
+.about img {
+  margin: 40px 30px;
+  width: 155px;
+  height: 155px;
+  border-radius: 100%;
+  margin-right: 50px;
+  margin-left: 10px;
+  padding: auto;
+}
+.about {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: auto;
 }
