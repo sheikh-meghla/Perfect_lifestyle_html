@@ -448,12 +448,15 @@ nav a.active {
 }
 
 
+
+/* footer */
+
 .a {
-    font-size: 24px;
+    font-size: 30px;
     margin: 0 10px;
-    color: #000; /* icon color */
+    color: #000; 
     text-decoration: none;
   }
   a:hover {
-    color: #f04; /* hover color */
+    color: rgb(0, 255, 225); /* hover color */
   }
