@@ -236,7 +236,7 @@ nav a.active {
   margin-bottom: 30px;
 }
 
-.footer-logo {
+.footer-logo {  
   font-size: 24px;
   color: #fff;
   margin-bottom: 15px;
@@ -252,33 +252,9 @@ nav a.active {
   color: #cbd5e1;
 }
 
-.footer-section h3 {
-  font-size: 18px;
-  margin-bottom: 20px;
-  border-left: 3px solid #63a5b1;
-  padding-left: 10px;
-}
 
-.footer-section ul {
-  list-style: none;
-  padding: 0;
-}
 
-.footer-section ul li {
-  margin-bottom: 10px;
-}
 
-.footer-section ul li a {
-  color: #cbd5e1;
-  text-decoration: none;
-  font-size: 14px;
-  transition: 0.3s;
-}
-
-.footer-section ul li a:hover {
-  color: #63a5b1;
-  padding-left: 5px;
-}
 
 .social-icons a {
   display: inline-block;
@@ -290,7 +266,7 @@ nav a.active {
   line-height: 35px;
   border-radius: 5px;
   margin-right: 10px;
-  font-size: 12px;
+  font-size: 22px;
   text-decoration: none;
   transition: 0.3s;
 }
@@ -449,14 +425,3 @@ nav a.active {
 
 
 
-/* footer */
-
-.a {
-    font-size: 30px;
-    margin: 0 10px;
-    color: #000; 
-    text-decoration: none;
-  }
-  a:hover {
-    color: rgb(0, 255, 225); /* hover color */
-  }
