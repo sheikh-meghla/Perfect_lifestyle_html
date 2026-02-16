@@ -212,13 +212,115 @@ nav a.active {
 /* ======================
    Footer
 ====================== */
-footer {
-  background: #1F2937;
-  color: #fff;
-  text-align: center;
-  padding: 25px;
+/* Footer Styling */
+.site-footer {
+  background-color: #1F2937; /* গাঢ় ধূসর রঙ */
+  color: #ffffff;
+  padding: 50px 0 20px;
+  font-family: 'Poppins', sans-serif;
   margin-top: 60px;
 }
+
+.footer-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+  margin-bottom: 30px;
+}
+
+.footer-logo {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.footer-logo span {
+  color: #63a5b1; /* আপনার সাইটের থিম কালার */
+}
+
+.footer-section p {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #cbd5e1;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  border-left: 3px solid #63a5b1;
+  padding-left: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #cbd5e1;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #63a5b1;
+  padding-left: 5px;
+}
+
+.social-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background: #374151;
+  color: #fff;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 12px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  background: #63a5b1;
+  transform: translateY(-3px);
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #374151;
+  padding-top: 20px;
+  margin-top: 20px;
+  font-size: 13px;
+  color: #94a3b8;
+}
+
+/* মোবাইলের জন্য রেসপন্সিভ */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-section h3 {
+    border-left: none;
+    padding-left: 0;
+  }
+}
+
 
 /* ======================
    Responsive
