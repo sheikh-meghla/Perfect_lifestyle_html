@@ -243,7 +243,7 @@ nav a.active {
 }
 
 .footer-logo span {
-  color: #63a5b1; /* আপনার সাইটের থিম কালার */
+  color: #63a5b1;
 }
 
 .footer-section p {
@@ -251,9 +251,6 @@ nav a.active {
   line-height: 1.8;
   color: #cbd5e1;
 }
-
-
-
 
 
 .social-icons a {
@@ -285,7 +282,6 @@ nav a.active {
   color: #94a3b8;
 }
 
-/* মোবাইলের জন্য রেসপন্সিভ */
 @media (max-width: 768px) {
   .footer-content {
     flex-direction: column;
