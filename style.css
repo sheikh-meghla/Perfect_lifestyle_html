@@ -46,9 +46,13 @@ header {
 }
 
 nav a {
-  margin-left: 25px;
+  margin-left: 50px;
   font-weight: 500;
-  color: #555;
+  background: linear-gradient(to right, #0a37ff, #8f1eff);
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;  
+  text-decoration: none;
+  display: inline-block;
 }
 
 nav a:hover,
