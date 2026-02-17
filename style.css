@@ -64,12 +64,12 @@ nav a.active {
    Hero Section
 ====================== */
 .hero {
-  height: 400px;
-  background: url('image/hero_section.jpg') center/cover no-repeat;
+  height: 350px;
+  background: url('image/hero_section.png') center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: rgb(0, 255, 234);
   text-align: center;
 }
 
@@ -142,11 +142,11 @@ nav a.active {
 /* ======================
    Related Posts
 ====================== */
-.related-posts {
+.recent-Posts {
   margin-top: 50px;
 }
 
-.related-grid {
+.recent-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 20px;
