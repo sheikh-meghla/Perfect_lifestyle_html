@@ -166,7 +166,7 @@ nav a.active {
 ====================== */
 .page-title {
   text-align: center;
-  padding: 70px 20px;
+  padding: 20px 20px;
   background: linear-gradient(to right, #667eea, #764ba2);
   color: white;
 }
