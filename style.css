@@ -9,7 +9,7 @@
 }
 
 body {
-  background: #f5f7fa;
+  background: #63a5b15f;
   color: #1F2937;
   line-height: 1.6;
 }
@@ -29,7 +29,7 @@ img {
 ====================== */
 header {
   background: #ffffff;
-  padding: 18px 60px;
+  padding: 8px 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -39,25 +39,30 @@ header {
   z-index: 100;
 }
 
-.logo {
-  font-size: 22px;
-  font-weight: 700;
-  color: #63a5b1;
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 120px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 nav a {
-  margin-left: 50px;
+  margin-left: 30px; 
   font-weight: 500;
   background: linear-gradient(to right, #0a37ff, #8f1eff);
   -webkit-background-clip: text; 
   -webkit-text-fill-color: transparent;  
   text-decoration: none;
-  display: inline-block;
 }
 
 nav a:hover,
 nav a.active {
-  color: #000;
+  -webkit-text-fill-color: #000;
 }
 
 /* ======================
