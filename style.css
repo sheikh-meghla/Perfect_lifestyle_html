@@ -499,6 +499,12 @@ nav a.active {
   bottom: 0;
   z-index: 1;
 }
+.blog-card img {
+  width: 100%;       /* কার্ডের সমান চওড়া হবে */
+  height: 200px;     /* আপনি আপনার পছন্দমতো হাইট দিতে পারেন */
+  object-fit: cover; /* ইমেজ ফেটে যাবে না বা চ্যাপ্টা হবে না */
+}
+
 
 /* ======================
    Details Page Adjustments
@@ -559,25 +565,25 @@ nav a {
 
 .full-blog h1 {
   font-size: 36px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   color: #333;
 }
 
 .blog-meta {
   color: #777;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   font-size: 14px;
 }
 
 .featured-image {
-  width: 100%;
+  width: 50%;
   height: auto;
   border-radius: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
 }
 
 .blog-text p {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   text-align: justify; /* লেখাগুলো দুপাশে সমান থাকবে */
   color: #444;
 }
