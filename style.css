@@ -511,7 +511,7 @@ nav a.active {
 ====================== */
 .details-container {
   max-width: 850px;
-  margin: 40px auto;
+  margin: 5px auto;
   padding: 0 20px;
 }
 
@@ -556,52 +556,45 @@ nav a {
 /* ======================
    details.html
 ====================== */
-.details-container {
-  max-width: 900px;
-  margin: 50px auto;
-  padding: 0 20px;
-  line-height: 1.8;
-}
-
-.full-blog h1 {
-  font-size: 36px;
-  margin-bottom: 5px;
+.blog-details {
+  max-width: 95%;      /* স্ক্রিনের ৯৫% জায়গা ব্যবহার করবে, ফলে দুই পাশে ফাঁকা খুব কম থাকবে */
+  margin: 10px auto;   /* উপরে-নিচে ১০px এবং দুই পাশে সমানভাবে অটো মার্জিন (সেন্টার করার জন্য) */
+  padding: 0 10px;     /* ভিতরের পাশের ফাঁকা আরও কমানো হয়েছে */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #333;
 }
 
-.blog-meta {
-  color: #777;
-  margin-bottom: 5px;
-  font-size: 14px;
+.featured-image img {
+  width: 100%;
+  max-height: 500px;   /* ছবি যেন খুব বেশি বড় না হয়ে যায় সেজন্য একটি সীমা দেওয়া হলো */
+  height: auto; 
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.1);
 }
 
-.featured-image {
-  width: 50%;
-  height: auto;
-  border-radius: 15px;
-  margin-bottom: 5px;
-}
-
-.blog-text p {
-  margin-bottom: 5px;
-  text-align: justify; /* লেখাগুলো দুপাশে সমান থাকবে */
+.post-content {
+  line-height: 1.8;    /* পড়ার সুবিধার জন্য সামান্য বাড়ানো হয়েছে */
+  font-size: 19px;     /* বাংলা ফন্টের জন্য ১৮-১৯px আদর্শ */
   color: #444;
+  margin-bottom: 30px;
+  text-align: justify; /* দুই পাশের লেখা সমান রাখার জন্য */
 }
 
-.back-btn {
-  display: inline-block;
+.post-content h2 {
   margin-top: 30px;
-  padding: 10px 20px;
-  background: #667eea;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: 0.3s;
+  margin-bottom: 15px;
+  color: #222;
+  font-size: 24px;
 }
 
-.back-btn:hover {
-  background: #764ba2;
+blockquote {
+  padding: 10px 15px; 
+  margin: 20px 0;
+  border-left: 5px solid #007bff; /* উদ্ধৃতি চিহ্নের জন্য একটি বাম পাশে বর্ডার */
+  background-color: #f9f9f9;
+  font-style: italic;
 }
-
 
 
